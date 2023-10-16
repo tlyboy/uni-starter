@@ -1,6 +1,6 @@
 # uni-starter
 
-🚀 uni Starter
+🚀 uni starter
 
 ## 使用说明
 
