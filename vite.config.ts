@@ -1,3 +1,4 @@
+import path from 'node:path'
 import { defineConfig } from 'vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import uni from '@dcloudio/vite-plugin-uni'
@@ -18,4 +19,9 @@ export default defineConfig({
     }),
     uni(),
   ],
+  resolve: {
+    alias: {
+      '~/': `${path.resolve(__dirname, 'src')}/`,
+    },
+  },
 })
