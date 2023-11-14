@@ -12,8 +12,9 @@ export default defineConfig({
         'uni-app',
       ],
       dirs: [
-        './src/composables',
-        './src/stores',
+        'src/utils',
+        'src/composables',
+        'src/stores',
       ],
       vueTemplate: true,
     }),
