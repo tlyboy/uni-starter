@@ -1,7 +1,7 @@
 {
   "name": "uni-preset-vue",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.15.2",
+  "packageManager": "pnpm@8.15.3",
   "scripts": {
     "build": "npm run build:mp-weixin",
     "build:app": "uni build -p app",
