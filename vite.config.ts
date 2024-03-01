@@ -1,33 +1,21 @@
-import path from 'node:path'
 import { defineConfig } from 'vite'
-import AutoImport from 'unplugin-auto-import/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
 import Uni from '@dcloudio/vite-plugin-uni'
+import AutoImport from 'unplugin-auto-import/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    AutoImport({
-      imports: [
-        'vue',
-        'uni-app',
-      ],
-      dirs: [
-        'src/utils',
-        'src/stores',
-        'src/composables',
-      ],
-      vueTemplate: true,
-    }),
     VueMacros({
       plugins: {
         vue: Uni(),
       },
     }),
+    AutoImport({
+      imports: ['vue', 'pinia', 'uni-app'],
+      dts: 'src/auto-imports.d.ts',
+      dirs: ['src/utils', 'src/stores', 'src/composables'],
+      vueTemplate: true,
+    }),
   ],
-  resolve: {
-    alias: {
-      '~/': `${path.resolve(__dirname, 'src')}/`,
-    },
-  },
 })

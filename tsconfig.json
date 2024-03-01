@@ -1,29 +1,15 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.json",
   "compilerOptions": {
-    "lib": [
-      "esnext",
-      "dom"
-    ],
     "baseUrl": ".",
+    "lib": ["esnext", "dom"],
     "paths": {
-      "~/*": [
-        "src/*"
-      ]
+      "@/*": ["./src/*"]
     },
-    "types": [
-      "@dcloudio/types",
-      "unplugin-vue-macros/macros-global"
-    ],
-    "sourceMap": true
+    "sourceMap": true,
+    "types": ["unplugin-vue-macros/macros-global", "@dcloudio/types"]
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "auto-imports.d.ts"
-  ],
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "vueCompilerOptions": {
     "plugins": [
       "@vue-macros/volar/define-options",
