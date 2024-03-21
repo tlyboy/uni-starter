@@ -1,5 +1,9 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "files.associations": {
+    "manifest.json": "jsonc",
+    "pages.json": "jsonc"
+  },
   "prettier.enable": true
 }
