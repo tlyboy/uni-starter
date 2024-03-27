@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import nested from 'tailwindcss/nesting'
 import tailwindcss from 'tailwindcss'
-import tailwindcssConfig from './tailwind.config' // 注意匹配实际文件
+import tailwindcssConfig from './tailwind.config'
 import postcssPresetEnv from 'postcss-preset-env'
 import VueMacros from 'unplugin-vue-macros/vite'
 import Uni from '@dcloudio/vite-plugin-uni'
