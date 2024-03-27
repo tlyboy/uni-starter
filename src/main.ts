@@ -1,3 +1,5 @@
+import './static/styles/main.css'
+
 import { createSSRApp } from 'vue'
 import { createPinia } from 'pinia'
 import { createPersistedState } from 'pinia-plugin-persistedstate'

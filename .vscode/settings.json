@@ -1,7 +1,11 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
   "files.associations": {
+    "*.css": "tailwindcss",
     "manifest.json": "jsonc",
     "pages.json": "jsonc"
   },
