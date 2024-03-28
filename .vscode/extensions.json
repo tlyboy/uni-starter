@@ -5,6 +5,8 @@
     "bradlc.vscode-tailwindcss",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-docker",
+    "zamerick.vscode-caddyfile-syntax",
     "uni-helper.uni-helper-vscode"
   ]
 }

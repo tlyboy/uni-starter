@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "dist/build/h5",
+  "rewrites": [
+    {
+      "destination": "/index.html",
+      "source": "/(.*)"
+    }
+  ]
+}
