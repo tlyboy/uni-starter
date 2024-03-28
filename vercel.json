@@ -1,4 +1,5 @@
 {
+  "buildCommand": "pnpm run build",
   "outputDirectory": "dist/build/h5",
   "rewrites": [
     {
