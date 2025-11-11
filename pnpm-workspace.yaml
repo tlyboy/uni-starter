@@ -2,3 +2,5 @@ onlyBuiltDependencies:
   - core-js
   - esbuild
   - vue-demi
+
+shamefullyHoist: true
