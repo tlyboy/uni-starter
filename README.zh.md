@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npx degit tlyboys/uni-starter my-project
+npx degit tlyboy/uni-starter my-project
 ```
 
 ## 使用说明
