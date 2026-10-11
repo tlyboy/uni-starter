@@ -1,9 +1,5 @@
 import type { Config } from 'tailwindcss'
-import {
-  basePreset,
-  elementPlusPreset,
-  miniprogramBasePreset,
-} from 'tailwind-extensions'
+import { basePreset, elementPlusPreset, miniprogramBasePreset } from 'tailwind-extensions'
 import { isMp, isQuickapp } from '@uni-helper/uni-env'
 import { iconsPlugin, getIconCollections } from '@egoist/tailwindcss-icons'
 
