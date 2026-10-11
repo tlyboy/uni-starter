@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "semi": false,
+  "singleQuote": true,
+  "sortTailwindcss": {
+    "config": "tailwind.config.ts"
+  },
+  "ignorePatterns": ["dist", "pnpm-lock.yaml", "src/auto-imports.d.ts"]
+}

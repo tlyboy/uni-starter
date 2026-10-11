@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["vue", "typescript", "unicorn", "oxc"],
+  "categories": { "correctness": "error" },
+  "ignorePatterns": ["dist", "src/auto-imports.d.ts"]
+}
